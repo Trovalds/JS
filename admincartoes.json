@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "PagSeguro",
+        "CredAV": 1.0499,
+        "CredAV14d": 1.0399,
+        "CredAV30d": 1.0319,
+        "CredParAV": 1.0559,
+        "CredPar14d": 1.0459,
+        "CredPar30d": 1.0379,
+        "Debito": 1.0239,
+        "DebitoCT": 0,
+        "Pix": 1.0189
+    },
+    {
+        "nome": "Mercado Pago",
+        "CredAV": 1.0474,
+        "CredAV14d": 1.0379,
+        "CredAV30d": 1.0303,
+        "CredParAV": 1.0531,
+        "CredPar14d": 1.0436,
+        "CredPar30d": 1.036,
+        "Debito": 1.0199,
+        "DebitoCT": 1.0399,
+        "Pix": 1.0099
+    }
+]
