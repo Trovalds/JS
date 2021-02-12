@@ -14,16 +14,6 @@ function listaAdmin() {
 
 listaAdmin()
 
-function pegaAdmin() {
-    var admin = document.getElementById("lista").value;
-    document.getElementById("Administradora").innerHTML = admin;
-}
-
-function pegaValor() {
-    var valor = document.getElementById("valor").value;
-    document.getElementById("valorCampo").innerHTML = valor;
-}
-
 function calculaValor() {
     var admin = document.getElementById("lista").selectedIndex;
     var valor = document.getElementById("valor").value;
