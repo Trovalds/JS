@@ -9,45 +9,59 @@
 </head>
 
 <body>
-    <input type="number" id="valor" value="" placeholder="Valor" />
-    <select id=lista></select><br>
-    <button type="button" onclick="calculaValor()">Calcula Valor</button><br />
+    <input type="number" id="valor" value="" placeholder="Valor" size="10"/>
+    <select id=lista></select>
+    <button type="button" onclick="calculaValor()">Calcula Valor</button>
     <table>
         <tr>
+            <th></th>
+            <th>Taxa</th>
+            <th>Cobrar</th>
+        </tr>
+        <tr>
             <td>Crédito à Vista: </td>
-            <td id="CredAV"></td>
+            <td id="txCredAV"></td>
+            <td id="valCredAV"></td>
         </tr>
         <tr>
             <td>Crédito 14 Dias: </td>
-            <td id="CredAV14d"></td>
+            <td id="txCredAV14d"></td>
+            <td id="valCredAV14d"></td>
         </tr>
         <tr>
             <td>Crédito 30 Dias: </td>
-            <td id="CredAV30d"></td>
+            <td id="txCredAV30d"></td>
+            <td id="valCredAV30d"></td>
         </tr>
         <tr>
             <td>Crédito Parcelado à Vista: </td>
-            <td id="CredParAV"></td>
+            <td id="txCredParAV"></td>
+            <td id="valCredParAV"></td>
         </tr>
         <tr>
             <td>Crédito Parcelado 14 Dias: </td>
-            <td id="CredPar14d"></td>
+            <td id="txCredPar14d"></td>
+            <td id="valCredPar14d"></td>
         </tr>
         <tr>
             <td>Crédito Parcelado 30 Dias: </td>
-            <td id="CredPar30d"></td>
+            <td id="txCredPar30d"></td>
+            <td id="valCredPar30d"></td>
         </tr>
         <tr>
             <td>Débito: </td>
-            <td id="Debito"></td>
+            <td id="txDebito"></td>
+            <td id="valDebito"></td>
         </tr>
         <tr>
             <td>Débito Caixa Tem: </td>
-            <td id="DebitoCT"></td>
+            <td id="txDebitoCT"></td>
+            <td id="valDebitoCT"></td>
         </tr>
         <tr>
             <td>Pix: </td>
-            <td id="Pix"></td>
+            <td id="txPix"></td>
+            <td id="valPix"></td>
         </tr>
     </table>
 </body>

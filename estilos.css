@@ -1,4 +1,12 @@
-td {
-    padding: 1px;
-    border: 1px solid black;
+th, td {
+    padding: 2px;
+}
+
+th {
+    background-color: #0f0;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #ebebeb;
 }
